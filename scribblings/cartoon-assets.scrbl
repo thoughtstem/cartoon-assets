@@ -14,7 +14,7 @@ Assets with a cartoon style
 @(require scribble/extract)
 
 @section{Space Theme}
-@;(include-extracted "../space.rkt")
+
 
 @section{Credits}
 
