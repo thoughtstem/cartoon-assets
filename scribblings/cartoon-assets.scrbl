@@ -13,9 +13,10 @@ Assets with a cartoon style
 
 @(require scribble/extract)
 
+
 @section{Space Theme}
-@;(include-extracted "../space.rkt")
+@(include-previously-extracted kenney-assets #rx".*alien.*") 
 
-@section{Credits}
+@section{Animals}
 
-is this still needed?
+@(include-previously-extracted kenney-assets #rx".*alien.*") 
