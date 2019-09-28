@@ -59,4 +59,3 @@
     moonfull)
   (require kenney-assets))
 
-
