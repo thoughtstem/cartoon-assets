@@ -2,6 +2,10 @@
 @require[@for-label[cartoon-assets
                     racket/base]]
 
+
+@(require scribble/extract
+  define-assets-from)
+
 @title{cartoon-assets}
 @;author{saralucchini}
 
@@ -13,10 +17,12 @@ Assets with a cartoon style
 
 @(require scribble/extract)
 
-
 @section{Space Theme}
-@(include-previously-extracted kenney-assets #rx".*alien.*") 
 
-@section{Animals}
+@(require (submod cartoon-assets/space asset-docs))
+@(doc-all (submod cartoon-assets/space asset-docs))
+    
+@section{Outdoors}
 
-@(include-previously-extracted kenney-assets #rx".*alien.*") 
+@(require (submod cartoon-assets/outdoors asset-docs))
+@(doc-all (submod cartoon-assets/outdoors asset-docs))
