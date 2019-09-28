@@ -1,5 +1,7 @@
 #lang racket
 
+(require kenney-assets)
+
 (provide ;characters
          alienbeige-sheet
          alienblue-sheet
@@ -53,5 +55,5 @@
          moon
          moonfull)
 
-(require kenney-assets)
+
 
