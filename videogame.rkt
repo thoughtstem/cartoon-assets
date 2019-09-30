@@ -1,7 +1,13 @@
 #lang racket
 
+
 ;how very meta
 
+(require define-assets-from)
+
+(also-for-asset-docs
+  #:asset-modules (kenney-assets)
+  
 (require kenney-assets)
 
 (provide ;characters
@@ -74,4 +80,4 @@
          mushroom02
          mushroomsmall
          tower01
-         tower02)
+         tower02))

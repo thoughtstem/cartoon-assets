@@ -1,5 +1,9 @@
 #lang racket
 
-(require kenney-assets/vehicles)
+(require define-assets-from)
 
-(provide (all-from-out kenney-assets/vehicles))
+(also-for-asset-docs
+ #:asset-modules (kenney-assets/vehicles)
+ (require kenney-assets/vehicles)
+
+ (provide (all-from-out kenney-assets/vehicles)))

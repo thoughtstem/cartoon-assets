@@ -1,5 +1,10 @@
 #lang racket
 
-(require kenney-assets/bgs)
+(require define-assets-from)
 
-(provide (all-from-out kenney-assets/bgs))
+(also-for-asset-docs
+ #:asset-modules (kenney-assets/bgs)
+
+ (require kenney-assets/bgs)
+
+ (provide (all-from-out kenney-assets/bgs)))

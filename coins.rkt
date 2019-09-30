@@ -1,5 +1,9 @@
 #lang racket
 
-(require kenney-assets/coins)
+(require define-assets-from)
 
-(provide (all-from-out kenney-assets/coins))
+(also-for-asset-docs
+ #:asset-modules (kenney-assets/coins)
+ (require kenney-assets/coins)
+
+ (provide (all-from-out kenney-assets/coins)))

@@ -2,7 +2,8 @@
 
 (define scribblings '(("scribblings/cartoon-assets.scrbl" ())))
 
-(define deps '("kenney-assets"))
+(define deps '("kenney-assets"
+               "define-assets-from"))
 
 ;(define collection "cartoon-assets")
 ;(define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))

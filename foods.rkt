@@ -1,5 +1,10 @@
 #lang racket
 
-(require kenney-assets/foods)
+(require define-assets-from)
 
-(provide (all-from-out kenney-assets/foods))
+(also-for-asset-docs
+ #:asset-modules (kenney-assets/foods)
+ 
+ (require kenney-assets/foods)
+
+ (provide (all-from-out kenney-assets/foods)))

@@ -1,9 +1,13 @@
 #lang racket
 
-(require kenney-assets)
+(require define-assets-from)
 
-(provide ;characters
-         slimeblock-sheet
-         slimeblue-sheet
-         slimegreen-sheet
-         slimepurple-sheet)
+(also-for-asset-docs
+  #:asset-modules (kenney-assets)
+  (require kenney-assets)
+
+  (provide ;characters
+           slimeblock-sheet
+           slimeblue-sheet
+           slimegreen-sheet
+           slimepurple-sheet))

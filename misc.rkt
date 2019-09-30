@@ -1,5 +1,9 @@
 #lang racket
 
-(require kenney-assets/misc)
+(require define-assets-from)
 
-(provide (all-from-out kenney-assets/misc))
+(also-for-asset-docs
+ #:asset-modules (kenney-assets/misc)
+ (require kenney-assets/misc)
+
+ (provide (all-from-out kenney-assets/misc)))
