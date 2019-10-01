@@ -69,7 +69,7 @@
            cloud02)
 
   (require kenney-assets
-           (except-in pzuh-assets/characters adventurer-sheet)
-           (rename-in pzuh-assets/characters
+           (except-in pzuh-assets adventurer-sheet)
+           (rename-in pzuh-assets
                       (adventurer-sheet adventurer02-sheet))))
 
