@@ -6,9 +6,11 @@
 (require define-assets-from)
 
 (also-for-asset-docs
-  #:asset-modules (kenney-assets)
+  #:asset-modules (kenney-assets
+                   pzuh-assets)
   
-(require kenney-assets)
+(require kenney-assets
+         (except-in pzuh-assets adventurer-sheet))
 
 (provide ;characters
          angryflyer-sheet
@@ -23,6 +25,8 @@
          spikeball-sheet
          spikeguy-sheet
          zombie-sheet
+         runningboy-sheet
+         runninggirl-sheet
          ;foods
          cherry
          ;coins
