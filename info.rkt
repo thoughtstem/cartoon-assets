@@ -2,13 +2,8 @@
 
 (define scribblings '(("scribblings/cartoon-assets.scrbl" ())))
 
-(define deps '("kenney-assets"
-               "pzuh-assets"
-               "misc-artist-assets"
-               "define-assets-from"))
-
-;(define collection "cartoon-assets")
-;(define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
-;(define pkg-desc "Description Here")
-;(define version "0.0")
-;(define pkg-authors '(saralucchini))
+(define deps '("https://github.com/thoughtstem/kenney-assets.git"
+               "https://github.com/thoughtstem/pzuh-assets.git"
+               "https://github.com/thoughtstem/define-assets-from.git"
+               "https://github.com/thoughtstem/misc-artist-assets.git"
+               ))
