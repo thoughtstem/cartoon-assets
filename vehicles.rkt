@@ -10,4 +10,4 @@
           pzuh-assets/characters)
 
  (provide (all-from-out kenney-assets/vehicles)
-          pilot))
+          pilot-sheet))
