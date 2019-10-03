@@ -3,6 +3,8 @@
 (define scribblings '(("scribblings/cartoon-assets.scrbl" ())))
 
 (define deps '("kenney-assets"
+               "pzuh-assets"
+               "misc-artist-assets"
                "define-assets-from"))
 
 ;(define collection "cartoon-assets")
