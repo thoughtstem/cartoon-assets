@@ -1,0 +1,16 @@
+digraph G {
+	node0 [label="define-assets-from"];
+	node1 [label="misc-artist-assets"];
+	node2 [label="pzuh-assets"];
+	node3 [label="cartoon-assets"];
+	node4 [label="kenney-assets"];
+	subgraph U {
+		edge [dir=none];
+	}
+	subgraph D {
+		node3 -> node2;
+		node3 -> node1;
+		node3 -> node0;
+		node3 -> node4;
+	}
+}

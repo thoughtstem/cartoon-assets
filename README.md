@@ -1,3 +1,4 @@
 cartoon-assets
 ==============
-README text here.
+
+![deps](./deps.png)
