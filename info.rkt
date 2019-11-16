@@ -6,4 +6,5 @@
                "https://github.com/thoughtstem/pzuh-assets.git"
                "https://github.com/thoughtstem/define-assets-from.git"
                "https://github.com/thoughtstem/misc-artist-assets.git"
+               "https://github.com/thoughtstem/tidey-assets.git"
                ))

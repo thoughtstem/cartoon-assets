@@ -5,7 +5,8 @@
 (also-for-asset-docs
  #:asset-modules (kenney-assets
                   pzuh-assets
-                  misc-artist-assets)
+                  misc-artist-assets
+                  tidey-assets)
  
  (require kenney-assets
           (except-in pzuh-assets adventurer-sheet)
@@ -18,8 +19,11 @@
           (rename-in misc-artist-assets (cherry cherry02)
                                         (carrot carrot02)
                                         (backpack backpack02)
-                                        (hammer hammer02)))
+                                        (hammer hammer02))
+          (except-in tidey-assets star)
+          (rename-in tidey-assets (star star02)))
 
  (provide (all-from-out kenney-assets)
           (all-from-out pzuh-assets)
-          (all-from-out misc-artist-assets)))
+          (all-from-out misc-artist-assets)
+          (all-from-out tidey-assets)))
